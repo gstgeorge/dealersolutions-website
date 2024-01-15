@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg sticky-top navbar-custom ">
+    <div class="container-fluid">
+        <div class="container my-2">
+            {% if site.logo %}
+            <a class="navbar-brand navbar-custom" href="{{ '' | absolute_url }}"><img class="navbar-logo" alt="{{ site.title }} Logo" src="{{ site.logo | relative_url}}"/></a>
+            {% endif %}
+        </div>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                {% for link in site.navbar-links %}
+                    {% if link[1].first %}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle navbar-custom" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ link[0] }}
+                            </a>
+                            <ul class="dropdown-menu navbar-custom">
+                                {% for child in link[1] %}
+                                    {% for sublink in child %}
+                                        <li><a class="dropdown-item navbar-custom" href="{{ sublink[1] }}">{{ sublink[0] }}</a></li>
+                                    {% endfor %}
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link navbar-custom" href="{{ link[1] }}">{{ link[0] }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

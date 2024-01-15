@@ -1,0 +1,68 @@
+######################
+#  Gavin St. George  #
+######################
+
+
+###############
+#  Site info  #
+###############
+
+title: Dealer Solutions
+
+tagline: On-the-lot services that drive your sales
+
+author: Dealer Solutions Corp
+
+logo: assets/images/ds_logo_square.png
+
+favicon: assets/images/ds_logo_square.png
+
+
+############
+#  Navbar  #
+############
+
+navbar-links:
+  Services: "services"
+  Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
+
+  # Link Label: "https://Link.com/"
+  # Section Label:
+  #   - Link Title: "https://Link.com/"
+  #   - Link Title: "https://Link.com/"  
+
+
+############
+#  Colors  #
+############
+
+page-color: "#f3f3f3"
+txt-color:
+link-color:
+navbar-color: "#004d99"
+navbar-txt-color: "#f3f3f3"
+footer-color: "#004d99"
+footer-txt-color: "#f3f3f3"
+
+
+#########################
+#  Default YAML values  #
+#########################
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+  - vendor/
