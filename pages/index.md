@@ -5,7 +5,7 @@ title:
 subtitle:
 
 header-img: assets/images/header_camera.jpg
-header-txt-col:
+header-txt-color:
 header-txt-hide: true
 ---
 
