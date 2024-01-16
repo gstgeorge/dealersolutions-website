@@ -4,7 +4,7 @@ permalink: /
 title:
 subtitle:
 
-header-img: assets/images/header_camera.jpg
+header-img: assets/images/header_camera.png
 header-txt-color:
 header-txt-hide: true
 ---
