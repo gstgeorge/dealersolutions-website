@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-    color: {{ site.link-color | default: "#000000" }};
+    color: {{ site.link-color | default: "#000000" }} !important;
 }
 
 .navbar-custom {
@@ -54,10 +54,17 @@ a {
     background-color: {{ site.navbar-txt-color | default: "#e5e9f0" }} !important;
 }
 
+.navbar-tagline {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    font-size: 0.75rem;
+}
+
 .header-img {
     background: no-repeat center center;
     background-size: cover;
-    height: 12rem;
+    height: 13rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

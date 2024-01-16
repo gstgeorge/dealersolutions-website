@@ -7,42 +7,58 @@
 #  Site info  #
 ###############
 
+# Site name
+#   Appears in navbar and titlebar
 title: Dealer Solutions
 
+# Site tagline
+#   Appears in navbar and titlebar
 tagline: On-the-lot services that drive your sales
 
+# Author
+#   Causes a footer to appear at the bottom of each page.
 author: Dealer Solutions Corp
 
-logo: assets/images/ds_logo_square.png
-
-favicon: assets/images/ds_logo_square.png
+# Favicon
+#   Path to file (png/ico) to use as site's favicon
+favicon: /assets/images/ds_logo_square.png
 
 
 ############
 #  Navbar  #
 ############
 
+# Site logo
+#   Appears in the leftmost position of the navbar
+#   It is recommended to use a square image
+logo: /assets/images/ds_logo_square.png
+
+# Show the site title & tagline in the navbar
+#   If the site logo is set, this will appear to its right
+navbar-show-title: true
+
+# Links to display in the navbar
 navbar-links:
-  Services: "services"
+  Services: "/services"
   Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
 
   # Link Label: "https://Link.com/"
   # Section Label:
-  #   - Link Title: "https://Link.com/"
-  #   - Link Title: "https://Link.com/"  
+  #   - Link Label: "https://Link.com/"
+  #   - Link Label: "https://Link.com/"  
 
 
-############
-#  Colors  #
-############
+#####################
+#  Color Overrides  #
+#####################
 
-page-color: "#f3f3f3"
-txt-color:
-link-color:
-navbar-color: "#004d99"
-navbar-txt-color: "#f3f3f3"
-footer-color: "#004d99"
-footer-txt-color: "#f3f3f3"
+page-color: "#f3f3f3"         # Page background color
+txt-color:                    # Text color
+link-color:                   # Link color
+navbar-color: "#004d99"       # Navbar background color
+navbar-txt-color: "#f3f3f3"   # Navbar text color
+footer-color: "#004d99"       # Footer background color
+footer-txt-color: "#f3f3f3"   # Footer text color
 
 
 #########################
@@ -56,9 +72,17 @@ defaults:
     values:
       layout: "default"
 
+
+##############
+#  Excludes  #
+##############
+
 exclude:
+  - .jekyll-cache/
+  - .sass-cache/
   - CHANGELOG.md
   - CNAME
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
   - LICENSE
