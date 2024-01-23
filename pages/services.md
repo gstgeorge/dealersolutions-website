@@ -1,15 +1,22 @@
 ---
 permalink: /services
 
-title:
+title: Services
 subtitle:
 
-header-img: 
-header-txt-col:
-header-txt-hide: true
+# Override meta attributes
+meta-title:
+meta-desc:
+meta-img:
+meta-type:
+
+# Page header options
+header-img:
+header-txt-color:
+header-txt-hide:
 ---
 
-## Photos
+# Photos
 
 At Dealer Solutions, creating a professional photo set is our specialty. Our process is specifically designed to get your cars online as quickly and efficiently as possible, while ensuring that the photos we deliver are consistently of a quality that will exceed your expectations.
 
@@ -19,9 +26,9 @@ With our expertise and dedication to excellence, we strive to capture the essenc
 
 ---
 
-## Merchandising
+# Merchandising
 
-### Dynamic Image Overlays
+## Dynamic Image Overlays
 
 Your image overlays are your first impression to your customers. Use this to your dealer’s advantage by adding relevant info directly on your vehicles. Tell your customers that they can get 0% APR Financing, even if they’re viewing your car on AutoTrader or Cars.com where they can’t see your website’s banner ads.
 
@@ -37,7 +44,7 @@ Some common overlay types include:
 * Loaner/Demo
 * Fleet Sales
 
-### Equipped Option Icons
+## Equipped Option Icons
 
 Manually typing out an attention-grabbing footer for each and every vehicle is now a thing of the past. Equipped Option Icons will decode each vehicle’s VIN and automatically generate a clean, stylish, set of tiles along the bottom of the first image displaying that vehicle’s most desirable options.
 
@@ -45,7 +52,7 @@ The clean and modern design conveys a sense of professionalism to your customers
 
 You’ll also draw more attention on 3rd party sites, by showing your customers which options they’re looking for right on the thumbnail image.
 
-### Custom Images
+## Custom Images
 
 Custom images are a great way to bring an additional message to your customers. They can be inserted at any position in a vehicle’s photo set and applied either to the entire inventory, or only to a particular subset of vehicles.
 
@@ -56,13 +63,13 @@ Some common implementations of this include:
 * Advertisement for a free first oil change at your service department added to every New vehicle.
 * Temporary “Photos Coming Soon” placeholder image including your dealer’s branding.
 
-### Seasonal Decorations
+## Seasonal Decorations
 
 Make your vehicles stand out and grab your customer’s attention with temporary overlay decorations around holidays. By incorporating Dealer Solutions Seasonal Decorations you can give your vehicles a distinct and captivating look that aligns with the spirit of various holidays throughout the year. Whether it’s Halloween, Christmas, or Valentine’s Day, embracing these festive additions will help your vehicles become real head-turners, ensuring that your brand stands out from the competition.
 
 ---
 
-## Videos
+# Videos
 
 Our full-motion walk-around videos give your customers a more personal, in-depth, view of each vehicle featuring a commentary which highlights specific details on that vehicle as well as your dealer’s location and contact information. Videos from Dealer Solutions provide a comprehensive overview of the vehicle’s features, allowing your potential customers to make informed decisions. Our expert team focuses on capturing the vehicle’s unique characteristics, ensuring your customers get an authentic experience even before visiting your dealership.
 
@@ -72,13 +79,13 @@ Each video can also be sent to YouTube and other 3rd party sites.
 
 ---
 
-## 360 Spins
+# 360 Spins
 
 360 Spins from Dealer Solutions provide your customers with an engaging and interactive experience directly on the Vehicle Description Page (VDP) of each vehicle. You can showcase both the exterior and interior of the vehicle through individual 360 Spins. These spins can be seamlessly stitched together to create a captivating video that can be sent to YouTube and other 3rd party sites, attracting a wider audience and increasing visibility for your vehicles.
 
 ---
 
-## Window Labels
+# Window Labels
 
 Printed same day on-site onto a custom designed template featuring your dealer’s branding, our window labels bring a degree of professionalism and uniformity to your lot.
 

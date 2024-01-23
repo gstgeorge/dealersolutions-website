@@ -11,12 +11,15 @@
 #   Appears in navbar and titlebar
 title: Dealer Solutions
 
+# Locale
+locale: en_US
+
 # Site tagline
 #   Appears in navbar and titlebar
 tagline: On-the-lot services that drive your sales
 
 # Author
-#   Causes a footer to appear at the bottom of each page.
+#   Causes a footer to appear at the bottom of each page
 author: Dealer Solutions Corp
 
 # Favicon

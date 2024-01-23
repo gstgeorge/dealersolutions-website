@@ -4,12 +4,19 @@ permalink: /
 title:
 subtitle:
 
+# Override meta attributes
+meta-title:
+meta-desc: We are a team of automotive photographers and marketing professionals providing dealers with a variety of services, both on-the-lot and online.
+meta-img:
+meta-type:
+
+# Page header options
 header-img: assets/images/header_camera.png
 header-txt-color:
 header-txt-hide: true
 ---
 
-![Dealer Solutions Logo](assets/images/ds_logo.png){: .centered width="50%"}
+![Dealer Solutions Logo](assets/images/ds_logo.png "Dealer Solutions Logo"){: .centered width="50%"}
 
 We are a team of automotive photographers and marketing professionals providing dealers with a variety of services, both on-the-lot and online.
 
