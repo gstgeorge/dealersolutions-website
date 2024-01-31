@@ -26,6 +26,9 @@ author: Dealer Solutions Corp
 #   Path to file (png/ico) to use as site's favicon
 favicon: /assets/images/ds_logo_square.png
 
+# Google Analytics Tag
+gtag: G-R7H32259Z2
+
 
 ############
 #  Navbar  #
