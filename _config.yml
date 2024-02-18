@@ -45,6 +45,7 @@ navbar-show-title: true
 
 # Links to display in the navbar
 navbar-links:
+  Home: "/"
   Services: "/services"
   Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
 
