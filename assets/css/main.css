@@ -1,5 +1,8 @@
 ---
 layout: null
+
+sitemap:
+    exclude: true
 ---
 
 html {
