@@ -1,7 +1,7 @@
 {% capture title %}{%- if page.title -%}{{ page.title }} | {% endif %}{{ site.title }}{% if site.tagline %} - {{ site.tagline }}{% endif %}{% endcapture %}
-{% capture meta-title %}{% if page.meta-title %}{{ page.meta-title }}{% elsif page.title %}{{ page.title }}{% elsif site.title %}{{ site.title }}{% endif %}{% endcapture %}
-{% capture meta-desc %}{%- if page.meta-desc -%}{{ page.meta-desc }}{%- elsif page.subtitle -%}{{ page.subtitle }}{%- elsif site.tagline -%}{{ site.tagline }}{% endif %}{% endcapture %}
-{% capture meta-img %}{% if page.meta-img %}{{ page.meta-img }}{% elsif page.header-img %}{{ page.header-img }}{% elsif site.logo %}{{ site.logo }}{% elsif site.favicon %}{{ site.favicon }}{% endif %}{% endcapture %}
+{% capture meta-title %}{% if page.meta.title %}{{ page.meta.title }}{% elsif page.title %}{{ page.title }}{% elsif site.title %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture meta-desc %}{%- if page.meta.desc -%}{{ page.meta.desc }}{%- elsif page.subtitle -%}{{ page.subtitle }}{%- elsif site.tagline -%}{{ site.tagline }}{% endif %}{% endcapture %}
+{% capture meta-img %}{% if page.meta.img %}{{ page.meta.img }}{% elsif page.header-img %}{{ page.header-img }}{% elsif site.logo %}{{ site.logo }}{% elsif site.favicon %}{{ site.favicon }}{% endif %}{% endcapture %}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 {% if meta-desc %}<meta name="description" content="{{ meta-desc }}">{% endif %}
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="{{ '' | absolute_url }}">
-<meta property="og:type" content="{{ page.meta-type | default: "website" }}">
+<meta property="og:type" content="{{ page.meta.type | default: "website" }}">
 {% if site.title %}<meta property="og:site_name" content="{{ site.title }}">{% endif %}
 {% if site.locale %}<meta property="og:locale" content="{{ site.locale }}">{% endif %}
 {% if meta-title %}<meta property="og:title" content="{{ meta-title }}">{% endif %}
