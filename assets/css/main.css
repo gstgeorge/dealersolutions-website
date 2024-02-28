@@ -13,7 +13,7 @@ body {
 
 p {
     line-height: 1.5;
-    margin: 1.75rem 0;
+    margin-bottom: 1.5rem 0;
 }
 
 p.jumbo {
@@ -22,6 +22,7 @@ p.jumbo {
 
 h1,h2,h3,h4,h5,h6 {
     line-height: 1.1;
+    margin-bottom: 1.75rem;
 }
 
 h1 {
@@ -81,7 +82,7 @@ img.navbar-custom {
 .header-img {
     background: no-repeat center center;
     background-size: cover;
-    height: 13rem;
+    height: 15rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,10 +96,6 @@ img.navbar-custom {
 footer {
     color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
     background-color: {{ site.accent-color | default: "#2e3440" }} !important;
-}
-
-img {
-    margin-bottom: 2rem;
 }
 
 img.centered {
