@@ -16,6 +16,10 @@ p {
     margin: 1.75rem 0;
 }
 
+p.jumbo {
+    font-size: 1.5rem;
+}
+
 h1,h2,h3,h4,h5,h6 {
     line-height: 1.1;
 }
@@ -24,8 +28,17 @@ h1 {
     font-size: 2.25rem;
 }
 
+h1.jumbo {
+    font-size: 10rem;;
+    font-weight: bold;
+}
+
 h2 {
     font-size: 1.75rem;
+}
+
+h2.jumbo {
+    font-size: 2.5rem;
 }
 
 h3 {
@@ -46,8 +59,8 @@ a {
 
 .navbar-custom {
     text-decoration: none !important;
-    color: {{ site.navbar-txt-color | default: "#e5e9f0" }} !important;
-    background-color: {{ site.navbar-color | default: "#2e3440" }} !important;
+    color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
+    background-color: {{ site.accent-color | default: "#2e3440" }} !important;
 }
 
 img.navbar-custom {
@@ -61,8 +74,8 @@ img.navbar-custom {
 }
 
 .dropdown-item:hover {
-    color: {{ site.navbar-color | default: "#2e3440" }} !important;
-    background-color: {{ site.navbar-txt-color | default: "#e5e9f0" }} !important;
+    color: {{ site.accent-color | default: "#2e3440" }} !important;
+    background-color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
 }
 
 .header-img {
@@ -74,9 +87,14 @@ img.navbar-custom {
     -o-background-size: cover;
 }
 
+.btn {
+    color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
+    background-color: {{ site.accent-color | default: "#2e3440" }} !important;
+}
+
 footer {
-    color: {{ site.footer-txt-color | default: "#e5e9f0" }} !important;
-    background-color: {{ site.footer-color | default: "#2e3440" }} !important;
+    color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
+    background-color: {{ site.accent-color | default: "#2e3440" }} !important;
 }
 
 img {

@@ -62,10 +62,8 @@ navbar-links:
 page-color: "#f3f3f3"         # Page background color
 txt-color:                    # Text color
 link-color:                   # Link color
-navbar-color: "#004d99"       # Navbar background color
-navbar-txt-color: "#f3f3f3"   # Navbar text color
-footer-color: "#004d99"       # Footer background color
-footer-txt-color: "#f3f3f3"   # Footer text color
+accent-color: "#004d99"       # Background color used in navbar, footer, buttons, etc.
+accent-txt-color: "#f3f3f3"   # Text color used in navbar, footer, buttons, etc.
 
 
 #########################
