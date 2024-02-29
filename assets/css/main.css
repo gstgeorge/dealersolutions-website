@@ -9,9 +9,11 @@ html {
 body {
     color: {{ site.text-color | default: "#000000"}};
     background-color: {{ site.page-color | default: "#e5e9f0" }};
+    font-family: "Open Sans", sans-serif;
 }
 
 p {
+    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1.5rem 0;
 }
@@ -26,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
 }
 
 h1.jumbo {
@@ -35,7 +37,7 @@ h1.jumbo {
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 1.8rem;
 }
 
 h2.jumbo {
@@ -43,11 +45,11 @@ h2.jumbo {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 h4 {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
 }
 
 h1, h2, h3, h4 {

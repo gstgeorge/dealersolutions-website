@@ -1,8 +1,18 @@
 ---
-layout: base
+layout: null
 ---
-<div class="row justify-content-around">
-    <div class="col-xl-10">
-        {{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>{% include head.html %}</head>
+<body>
+    <div class="wrapper d-flex flex-column min-vh-100 p-0">
+        {% include nav.html %}
+        {% include header.html %}
+        <div class="container flex-fill">
+            {{ content }}
+        </div>
+        {% include footer.html %}
+        {% include scripts.html %}
     </div>
-</div>
+</body>
+</html>
