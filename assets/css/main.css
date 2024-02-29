@@ -31,17 +31,18 @@ h1 {
     font-size: 2.5rem;
 }
 
-h1.jumbo {
+h1.xxl {
     font-size: 10rem;;
+    font-weight: bold;
+}
+
+h1.xl {
+    font-size: 4rem;
     font-weight: bold;
 }
 
 h2 {
     font-size: 1.8rem;
-}
-
-h2.jumbo {
-    font-size: 2.5rem;
 }
 
 h3 {
@@ -88,6 +89,10 @@ img.navbar-custom {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+.header-img-txt {
+    background: rgba(57, 57, 57, 0.5)
 }
 
 .btn {
