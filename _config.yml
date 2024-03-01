@@ -47,6 +47,7 @@ navbar-show-title: true
 navbar-links:
   Home: "/"
   Services: "/services"
+  Careers: "/careers"
   Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
 
   # Link Label: "https://Link.com/"

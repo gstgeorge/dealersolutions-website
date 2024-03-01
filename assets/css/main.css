@@ -15,11 +15,7 @@ body {
 p {
     font-size: 1rem;
     line-height: 1.5;
-    margin-bottom: 1.5rem 0;
-}
-
-p.jumbo {
-    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -29,16 +25,6 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     font-size: 2.5rem;
-}
-
-h1.xxl {
-    font-size: 10rem;;
-    font-weight: bold;
-}
-
-h1.xl {
-    font-size: 4rem;
-    font-weight: bold;
 }
 
 h2 {
@@ -59,6 +45,16 @@ h1, h2, h3, h4 {
 
 a {
     color: {{ site.link-color | default: "#000000" }} !important;
+}
+
+.xxl {
+    font-size: 10rem;;
+    font-weight: bold;
+}
+
+.xl {
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 .navbar-custom {
@@ -105,12 +101,12 @@ footer {
     background-color: {{ site.accent-color | default: "#2e3440" }} !important;
 }
 
-img.centered {
+.border {
+    border-color: {{ site.accent-color | default: "#2e3440" }} !important;
+}
+
+.centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-img.rounded {
-    border-radius: 5%;
 }
