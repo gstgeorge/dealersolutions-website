@@ -1,0 +1,66 @@
+---
+permalink: /contact
+
+layout: default
+
+title: Contact Us
+
+header:
+    img: /assets/images/contact/header_keyboard.png
+    txt-color: "#ffffff"
+---
+<div class="row justify-content-around text-center my-5">
+    <div class="col-lg-10">
+        <h1>How Can We Help?</h1>
+        <h2 class="fw-light fs-4">Fill out the form below, and a member of our team will be in touch.</h2>
+    </div>
+</div>
+<div class="row justify-content-around">
+    <div class="col-lg-6 my-auto">
+        <div class="mx-lg-5">
+            <h3 class="fw-light mb-2">Get a Quote</h2>
+            <p>Interested in bringing Dealer Solutions to your dealership? Request your personalized quote today.</p>
+            <hr class="my-4">
+            <h3 class="fw-light mb-2">Custom Samples</h2>
+            <p>Curious to see how we can transform your inventory? We'll create a set of custom samples with your dealership's branding.</p>
+            <hr class="my-4">
+            <h3 class="fw-light mb-2">Ask a Question</h2>
+            <p>Need something else? Just want to drop us a line? We'd love to hear from you.</p>
+        </div>
+    </div>
+    <div class="col-lg-5 text-center">
+        <form action="https://formspree.io/f/mwkgbzno" method="POST" class="my-5 my-lg-3">
+            <div class="form-floating my-3">
+                <input type="text" class="form-control" id="nameInput" name="name" placeholder="Name" required>
+                <label for="nameInput">Name</label>
+            </div>
+            <div class="form-floating my-3">
+                <input type="text" class="form-control" id="dealerNameInput" name="dealerName" placeholder="Dealership Name" required>
+                <label for="dealerNameInput">Dealership Name</label>
+            </div>
+            <div class="form-floating my-3">
+                <input type="tel" class="form-control" id="telInput" name="tel" placeholder="(___) ___-____" required>
+                <label for="telInput">Phone Number</label>
+            </div>
+            <div class="form-floating my-3">
+                <input type="email" class="form-control" id="emailInput" name="email" placeholder="name@example.com" required>
+                <label for="emailInput">Email Address</label>
+            </div>
+            <div class="form-floating my-3">
+                <select class="form-select" id="messageType" name="messageType" required>
+                  <option value="" selected disabled>Please select an option</option>
+                  <option value="quote">Quote Request</option>
+                  <option value="samples">Sample Request</option>
+                  <option value="employment">Employment</option>
+                  <option value="other">Questions/Comments</option>
+                </select>
+                <label for="messageType">How can we help?</label>
+            </div>
+            <div class="form-floating my-3">
+                <textarea class="form-control" id="messageTextArea" name="message" placeholder="Message" style="height: 100px" required></textarea>
+                <label for="messageTextArea">Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Send</button>
+        </form>
+    </div>
+</div>

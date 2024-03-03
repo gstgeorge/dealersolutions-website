@@ -48,6 +48,7 @@ navbar-links:
   Home: "/"
   Services: "/services"
   Careers: "/careers"
+  Contact: "/contact"
   Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
 
   # Link Label: "https://Link.com/"
