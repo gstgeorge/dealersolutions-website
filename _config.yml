@@ -46,7 +46,14 @@ navbar-show-title: true
 # Links to display in the navbar
 navbar-links:
   Home: "/"
-  Services: "/services"
+  Services:
+    - Photos: "/services#photos"
+    - Dynamic Overlays: "/services#overlays"
+    - Equipped Option Tiles: "/services#tiles"
+    - Custom Images: "/services#custimgs"
+    - Videos: "/services#videos"
+    - 360 Spins: "/services#360spins"
+    - Window Labels: "/services#labels"
   Careers: "/careers"
   Contact: "/contact"
   Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
