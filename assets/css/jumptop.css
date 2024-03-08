@@ -1,0 +1,21 @@
+---
+layout: null
+---
+
+.jumptop {
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.jumptop:hover {
+    opacity: 80%;
+  }
+
+.hidden {
+    opacity: 0%;
+}
