@@ -12,10 +12,6 @@ layout: null
     transition: opacity 0.5s;
 }
 
-.jumptop:hover {
-    opacity: 80%;
-  }
-
 .hidden {
     opacity: 0%;
 }
