@@ -74,14 +74,14 @@ img.navbar-custom {
 .header-img {
     background: no-repeat center center;
     background-size: cover;
-    height: 15rem;
+    height: 20rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 
-.header-img-txt {
-    background: rgba(57, 57, 57, 0.5)
+.header-img-overlay {
+    background: rgba(57, 57, 57, 0.7)
 }
 
 .btn {
