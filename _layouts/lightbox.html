@@ -1,0 +1,21 @@
+---
+layout: default
+
+includes:
+    js:
+        - /assets/js/lightbox.js
+---
+<div class="modal fade" id="lightbox" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen-lg-down modal-lg">
+        <div class="modal-content pb-3">
+            <div class="modal-header mb-3">
+                <h1 class="modal-title fs-5" id="lightboxTitle"></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="container-fluid">
+                <img src="" class="img-fluid shadow-lg" id="lightboxImage">
+            </div>
+        </div>
+    </div>
+</div>
+{{ content }}
