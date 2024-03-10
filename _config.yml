@@ -75,6 +75,15 @@ accent-color: "#004d99"       # Background color used in navbar, footer, buttons
 accent-txt-color: "#f3f3f3"   # Text color used in navbar, footer, buttons, etc.
 
 
+#####################
+#  Global CSS & JS  #
+#####################
+
+css:
+js:
+  - /assets/js/main.js
+
+
 #########################
 #  Default YAML values  #
 #########################

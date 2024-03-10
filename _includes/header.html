@@ -1,8 +1,8 @@
 <header>
     {% if page.header.img %}
-        <div class="header-img d-flex mb-4" style="background-image: url('{{page.header.img}}');">
+        <div id="header-img" class="d-flex mb-4" style="background-image: url('{{page.header.img}}');">
             {% unless page.header.hide %}
-                <div class="header-img-overlay d-flex flex-column flex-fill justify-content-center align-items-center text-center" {% if page.header.txt-color %}style="color: {{ page.header.txt-color }};"{% endif %}>
+                <div id="header-img-overlay" class="d-flex flex-column flex-fill justify-content-center align-items-center text-center" {% if page.header.txt-color %}style="color: {{ page.header.txt-color }};"{% endif %}>
                     {% if page.header.title-img %}<img src="{{ page.header.title-img }}" class="img-fluid mb-3" style="max-height: 60%; max-width:80%">
                     {% elsif page.title %}<h1 class="xl">{{ page.title }}</h1>{% endif %}
                     {% if page.subtitle %}<h2 class="mb-3">{{ page.subtitle }}</h2>{% endif %}
