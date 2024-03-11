@@ -1,0 +1,138 @@
+samples:
+  content:
+    - path: /assets/images/samples/mfg_cdjr.png
+      link: /samples/cdjr
+    - path: /assets/images/samples/mfg_buickgmc.png
+      link: /samples/buickgmc
+    - path: /assets/images/samples/mfg_honda.png
+      link: /samples/honda
+    - path: /assets/images/samples/mfg_mazda.png
+      link: /samples/mazda
+
+buickgmc_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_1owner.png
+    - title: CPO Buick
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_cpo_buick.png
+    - title: CPO GMC
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_cpo_gmc.png
+    - title: Incentive Ad
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_ad.png
+    - title: New Buick
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_buick.png
+    - title: New GMC
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_gmc.png
+    - title: Electric
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/buickgmc/buickgmc_overlay_gassaver.png
+
+buickgmc_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/buickgmc/buickgmc_custimg_map.png
+    - title: Default Placeholder
+      path: /assets/images/samples/buickgmc/buickgmc_placeholder_default.png
+    - title: CPO Buick Placeholder
+      path: /assets/images/samples/buickgmc/buickgmc_placeholder_cpo_buick.png
+    - title: CPO GMC Placeholder
+      path: /assets/images/samples/buickgmc/buickgmc_placeholder_cpo_gmc.png
+    - title: New Buick Placeholder
+      path: /assets/images/samples/buickgmc/buickgmc_placeholder_buick.png
+    - title: New GMC Placeholder
+      path: /assets/images/samples/buickgmc/buickgmc_placeholder_gmc.png
+
+cdjr_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/cdjr/cdjr_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/cdjr/cdjr_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/cdjr/cdjr_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/cdjr/cdjr_overlay_ad.png
+    - title: New 4xe
+      path: /assets/images/samples/cdjr/cdjr_overlay_4xe.png
+    - title: New Chrysler
+      path: /assets/images/samples/cdjr/cdjr_overlay_chrysler.png
+    - title: New Dodge
+      path: /assets/images/samples/cdjr/cdjr_overlay_dodge.png
+    - title: New Jeep
+      path: /assets/images/samples/cdjr/cdjr_overlay_jeep.png
+    - title: New Ram
+      path: /assets/images/samples/cdjr/cdjr_overlay_ram.png
+    - title: New SRT
+      path: /assets/images/samples/cdjr/cdjr_overlay_srt.png
+    - title: Electric
+      path: /assets/images/samples/cdjr/cdjr_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/cdjr/cdjr_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/cdjr/cdjr_overlay_gassaver.png
+
+cdjr_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/cdjr/cdjr_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/cdjr/cdjr_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/cdjr/cdjr_placeholder_cpo.png
+
+honda_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/honda/honda_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/honda/honda_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/honda/honda_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/honda/honda_overlay_ad.png
+    - title: Electric
+      path: /assets/images/samples/honda/honda_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/honda/honda_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/honda/honda_overlay_gassaver.png
+
+honda_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/honda/honda_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/honda/honda_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/honda/honda_placeholder_cpo.png
+
+mazda_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/mazda/mazda_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/mazda/mazda_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/mazda/mazda_overlay_cpo.png
+
+mazda_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/mazda/mazda_custimg_map.png
+    - title: Default Placeholder
+      path: /assets/images/samples/mazda/mazda_placeholder_default.png
+    - title: CPO Placeholder
+      path: /assets/images/samples/mazda/mazda_placeholder_cpo.png

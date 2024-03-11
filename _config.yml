@@ -54,6 +54,7 @@ navbar-links:
     - Videos: "/services#videos"
     - 360 Spins: "/services#360spins"
     - Window Labels: "/services#labels"
+  Samples: "/samples"
   Careers: "/careers"
   Contact: "/contact"
   Portal: "https://admin.unitsinventory.com/index.php/reseller/dealer"
