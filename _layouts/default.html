@@ -9,8 +9,8 @@ layout: null
         {% include nav.html %}
         {% include header.html %}
         <div class="container flex-fill">
-            {% if page.lightbox %}{% include lightbox.html %}{% endif %}
-            {% if page.jumptop %}{% include jumptop.html %}{% endif %}
+            {% if page.lightbox==true %}{% include lightbox.html %}{% endif %}
+            {% if page.jumptop==true %}{% include jumptop.html %}{% endif %}
             {{ content }}
         </div>
         {% include footer.html %}
