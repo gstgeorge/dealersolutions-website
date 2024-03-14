@@ -1,11 +1,19 @@
 samples:
   content:
+    - path: /assets/images/samples/mfg_chevy.png
+      link: /samples/chevy
+    - path: /assets/images/samples/mfg_ford.png
+      link: /samples/ford
     - path: /assets/images/samples/mfg_cdjr.png
       link: /samples/cdjr
+    - path: /assets/images/samples/mfg_nissan.png
+      link: /samples/nissan
     - path: /assets/images/samples/mfg_buickgmc.png
       link: /samples/buickgmc
     - path: /assets/images/samples/mfg_honda.png
       link: /samples/honda
+    - path: /assets/images/samples/mfg_toyota.png
+      link: /samples/toyota
     - path: /assets/images/samples/mfg_mazda.png
       link: /samples/mazda
 
@@ -89,6 +97,72 @@ cdjr_custimgs:
     - title: Placeholder CPO
       path: /assets/images/samples/cdjr/cdjr_placeholder_cpo.png
 
+chevy_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/chevy/chevy_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/chevy/chevy_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/chevy/chevy_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/chevy/chevy_overlay_ad.png
+    - title: Electric
+      path: /assets/images/samples/chevy/chevy_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/chevy/chevy_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/chevy/chevy_overlay_gassaver.png
+
+chevy_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/chevy/chevy_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/chevy/chevy_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/chevy/chevy_placeholder_cpo.png
+
+ford_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/ford/ford_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/ford/ford_overlay_1owner.png
+    - title: Blue Certified
+      path: /assets/images/samples/ford/ford_overlay_cpo_blue.png
+    - title: Gold Certified
+      path: /assets/images/samples/ford/ford_overlay_cpo_gold.png
+    - title: Incentive Ad
+      path: /assets/images/samples/ford/ford_overlay_ad.png
+    - title: New Raptor
+      path: /assets/images/samples/ford/ford_overlay_raptor.png
+    - title: New Shelby
+      path: /assets/images/samples/ford/ford_overlay_shelby.png
+    - title: Electric
+      path: /assets/images/samples/ford/ford_overlay_electric.png
+    - title: PHEV
+      path: /assets/images/samples/ford/ford_overlay_phev.png
+    - title: Hybrid
+      path: /assets/images/samples/ford/ford_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/ford/ford_overlay_gassaver.png
+
+ford_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/ford/ford_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/ford/ford_placeholder_default.png
+    - title: Placeholder Blue Certified
+      path: /assets/images/samples/ford/ford_placeholder_cpo_blue.png
+    - title: Placeholder Gold Certified
+      path: /assets/images/samples/ford/ford_placeholder_cpo_gold.png
+
 honda_overlays:
   title: Overlays
   content:
@@ -136,3 +210,61 @@ mazda_custimgs:
       path: /assets/images/samples/mazda/mazda_placeholder_default.png
     - title: CPO Placeholder
       path: /assets/images/samples/mazda/mazda_placeholder_cpo.png
+
+nissan_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/nissan/nissan_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/nissan/nissan_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/nissan/nissan_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/nissan/nissan_overlay_ad.png
+    - title: Electric
+      path: /assets/images/samples/nissan/nissan_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/nissan/nissan_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/nissan/nissan_overlay_gassaver.png
+
+nissan_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/nissan/nissan_custimg_map.png
+    - title: CPO Warranty Benefits
+      path: /assets/images/samples/nissan/nissan_custimg_cpo.png
+    - title: Placeholder Default
+      path: /assets/images/samples/nissan/nissan_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/nissan/nissan_placeholder_cpo.png
+
+toyota_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/toyota/toyota_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/toyota/toyota_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/toyota/toyota_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/toyota/toyota_overlay_ad.png
+    - title: Electric
+      path: /assets/images/samples/toyota/toyota_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/toyota/toyota_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/toyota/toyota_overlay_gassaver.png
+
+toyota_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/toyota/toyota_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/toyota/toyota_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/toyota/toyota_placeholder_cpo.png
