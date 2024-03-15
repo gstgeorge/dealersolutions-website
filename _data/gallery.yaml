@@ -14,6 +14,8 @@ samples:
       link: /samples/honda
     - path: /assets/images/samples/mfg_toyota.png
       link: /samples/toyota
+    - path: /assets/images/samples/mfg_hyundai.png
+      link: /samples/hyundai
     - path: /assets/images/samples/mfg_mazda.png
       link: /samples/mazda
 
@@ -190,6 +192,34 @@ honda_custimgs:
       path: /assets/images/samples/honda/honda_placeholder_default.png
     - title: Placeholder CPO
       path: /assets/images/samples/honda/honda_placeholder_cpo.png
+
+hyundai_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/hyundai/hyundai_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/hyundai/hyundai_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/hyundai/hyundai_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/hyundai/hyundai_overlay_ad.png
+    - title: Electric
+      path: /assets/images/samples/hyundai/hyundai_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/hyundai/hyundai_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/hyundai/hyundai_overlay_gassaver.png
+
+hyundai_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/hyundai/hyundai_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/hyundai/hyundai_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/hyundai/hyundai_placeholder_cpo.png
 
 mazda_overlays:
   title: Overlays
