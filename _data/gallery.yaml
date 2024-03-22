@@ -16,6 +16,8 @@ samples:
       link: /samples/toyota
     - path: /assets/images/samples/mfg_hyundai.png
       link: /samples/hyundai
+    - path: /assets/images/samples/mfg_subaru.png
+      link: /samples/subaru
     - path: /assets/images/samples/mfg_mazda.png
       link: /samples/mazda
 
@@ -270,6 +272,34 @@ nissan_custimgs:
       path: /assets/images/samples/nissan/nissan_placeholder_default.png
     - title: Placeholder CPO
       path: /assets/images/samples/nissan/nissan_placeholder_cpo.png
+
+subaru_overlays:
+  title: Overlays
+  content:
+    - title: Default
+      path: /assets/images/samples/subaru/subaru_overlay_default.png
+    - title: CarFax 1-Owner
+      path: /assets/images/samples/subaru/subaru_overlay_1owner.png
+    - title: CPO
+      path: /assets/images/samples/subaru/subaru_overlay_cpo.png
+    - title: Incentive Ad
+      path: /assets/images/samples/subaru/subaru_overlay_ad.png
+    - title: Electric
+      path: /assets/images/samples/subaru/subaru_overlay_electric.png
+    - title: Hybrid
+      path: /assets/images/samples/subaru/subaru_overlay_hybrid.png
+    - title: Gas Saver
+      path: /assets/images/samples/subaru/subaru_overlay_gassaver.png
+
+subaru_custimgs:
+  title: Custom Images
+  content:
+    - title: Location Map
+      path: /assets/images/samples/subaru/subaru_custimg_map.png
+    - title: Placeholder Default
+      path: /assets/images/samples/subaru/subaru_placeholder_default.png
+    - title: Placeholder CPO
+      path: /assets/images/samples/subaru/subaru_placeholder_cpo.png
 
 toyota_overlays:
   title: Overlays
