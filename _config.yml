@@ -39,9 +39,14 @@ gtag: G-R7H32259Z2
 #   It is recommended to use a square image
 logo: /assets/images/ds_logo_square.png
 
-# Show the site title & tagline in the navbar
-#   If the site logo is set, this will appear to its right
-navbar-show-title: true
+# Don't display the site title & tagline in the navbar
+navbar-hide-title: #true
+
+# Override the title shown in the navbar
+navbar-title:
+
+# Override the tagline shown in the navbar
+navbar-tagline:
 
 # Links to display in the navbar
 navbar-links:
@@ -77,11 +82,12 @@ accent-color: "#004d99"       # Background color used in navbar, footer, buttons
 accent-txt-color: "#f3f3f3"   # Text color used in navbar, footer, buttons, etc.
 
 
-#####################
-#  Global CSS & JS  #
-#####################
+#######################
+#  Sitewide CSS & JS  #
+#######################
 
 css:
+  - /assets/css/main.css
 js:
   - /assets/js/main.js
 

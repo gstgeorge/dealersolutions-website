@@ -1,14 +1,15 @@
+{% unless site.navbar-hide-title==true %}{% capture navbar-title %}{% if site.navbar-title %}{{ site.navbar-title }}{% elsif site.title %}{{ site.title }}{% endif %}{% endcapture %}{% capture navbar-tagline %}{% if site.navbar-tagline %}{{ site.navbar-tagline }}{% elsif site.tagline %}{{ site.tagline }}{% endif %}{% endcapture %}{% endunless %}
 <nav class="navbar navbar-expand-lg sticky-top navbar-custom ">
     <div class="container-fluid">
         <a class="navbar-custom d-flex align-items-center" href="{{ '' | absolute_url }}">
             {% if site.logo %}
                 <img class="navbar-custom my-0 me-3" alt="{{ site.title }} Logo" src="{{ site.logo | relative_url}}"/>
             {% endif %}
-            {% if site.title and site.navbar-show-title %}
+            {% if navbar-title %}
                 <div class="col">
-                    <p class="navbar-brand navbar-custom p-0 m-0">{{ site.title }}</p>
-                    {% if site.tagline %}
-                        <p id="navbar-tagline" class="navbar-custom p-0 m-0">{{ site.tagline }}</p>
+                    <p class="navbar-brand navbar-custom p-0 m-0">{{ navbar-title }}</p>
+                    {% if navbar-tagline %}
+                        <p id="navbar-tagline" class="navbar-custom p-0 m-0">{{ navbar-tagline }}</p>
                     {% endif %}
                 </div>
             {% endif %}
