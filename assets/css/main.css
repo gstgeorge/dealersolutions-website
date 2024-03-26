@@ -9,11 +9,14 @@ html {
 body {
     color: {{ site.text-color | default: "#000000"}};
     background-color: {{ site.page-color | default: "#e5e9f0" }};
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 p {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.3rem;
 }
 
 a {
@@ -22,6 +25,7 @@ a {
 
 h1,h2,h3,h4,h5,h6 {
     margin-bottom: 2rem;
+    font-weight: 400;
 }
 
 h1 {
@@ -29,15 +33,15 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .xl {
@@ -51,6 +55,7 @@ h4 {
 }
 
 .navbar-custom {
+    font-weight: 400;
     text-decoration: none !important;
     color: {{ site.accent-txt-color | default: "#e5e9f0" }} !important;
     background-color: {{ site.accent-color | default: "#2e3440" }} !important;
